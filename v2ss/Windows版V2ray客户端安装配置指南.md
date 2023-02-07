@@ -3,7 +3,7 @@
 ## V2ray官方Windows客户端安装配置
 
 <b>广告插播，如果你觉得自己折腾VPS太麻烦，可以考虑这个服务哦（非本库服务）：</b><br>
-<a href="https://github.com/killgcd/justmysocks/blob/master/README.md"><img src="https://raw.githubusercontent.com/killgcd/justmysocks/master/images/bwgss.jpg" alt="搬瓦工翻墙 Just My Socks"></a>
+<a href="https://github.com/bannedbook/fanqiang/wiki/V2ray%E6%9C%BA%E5%9C%BA"><img src="https://raw.githubusercontent.com/bannedbook/fanqiang/master/v2ss/images/v2free.jpg" height="300" alt="V2free翻墙-不限流量、高速稳定、性价比超强"></a>
 
 点<a href="https://github.com/v2ray/v2ray-core/releases" target="_blank" rel="noopener">这里</a>下载 V2Ray 的 Windows 压缩包，如果是 32 位系统，下载 v2ray-windows-32.zip，如果是 64 位系统，下载 v2ray-windows-64.zip。 下载解压之后会有 v2ray.exe 和 config.json 这两个文件，v2ray.exe 是运行 v2ray 的文件，config.json 是配置文件。你可以通过记事本或其它的文本编辑器打开查看。
 
@@ -46,7 +46,7 @@
             "users": [
               {
                 "id": "b9a7e7ac-e9f2-4ac2-xxxx-xxxxxxxxxx",  // 用户 ID，必须与服务器端配置相同
-                "alterId": 64 // 此处的值也应当与服务器相同
+                "alterId": 0
               }
             ]
           }
@@ -99,7 +99,7 @@
                         "users": [
                             {
                                 "id": "b9a7e7ac-e9f2-4ac2-xxxx-xxxxxxxxxx",
-                                "alterId": 64
+                                "alterId": 0
                             }
                         ]
                     }
@@ -169,7 +169,6 @@ Configuration OK.
 <li><a href="https://github.com/bannedbook/fanqiang/wiki/%E5%AE%89%E5%8D%93%E7%BF%BB%E5%A2%99%E8%BD%AF%E4%BB%B6">安卓手机翻墙</a></li>
  <li><a href="https://github.com/bannedbook/fanqiang/wiki/Chrome%E4%B8%80%E9%94%AE%E7%BF%BB%E5%A2%99%E5%8C%85" >Chrome一键翻墙包</a></li>
  <li><a href="https://github.com/bannedbook/fanqiang/wiki/%E7%81%AB%E7%8B%90firefox%E4%B8%80%E9%94%AE%E7%BF%BB%E5%A2%99%E5%8C%85" >火狐firefox一键翻墙包</a></li>
- <li><a href="https://github.com/bannedbook/xxjw" >XX-Net禁闻版</a></li>
  <li><a href="https://github.com/bannedbook/fanqiang/blob/master/v2ss/%E8%87%AA%E5%BB%BAV2ray%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B.md" >自建V2ray服务器简明教程</a></li>
 </ul>
 
